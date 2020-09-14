@@ -4,6 +4,7 @@ font-size: 80px;
 font-family: century gothic;
 font-weight: 100;
 }
+
 h2 {
 color: white;
 font-size: 40px;
@@ -13,6 +14,10 @@ font-weight: lighter;
 
 a:visited {
   color: white
+}
+
+a:hover {
+  color: cadetblue;
 }
 
 body {
