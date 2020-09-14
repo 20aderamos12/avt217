@@ -1,14 +1,18 @@
 h1 {
 color: white;
-font-size: 40px;
+font-size: 80px;
 font-family: century gothic;
 font-weight: 100;
 }
 h2 {
 color: white;
-font-size: 30px;
+font-size: 40px;
 font-family: century gothic;
 font-weight: lighter;
+}
+
+a:visited {
+  color: white
 }
 
 body {
