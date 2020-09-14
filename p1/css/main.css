@@ -5,4 +5,5 @@ font-size: 50px;
 
 body {
 background-image: url("../images/saturn.jpg");
+background-size: cover;
 }
