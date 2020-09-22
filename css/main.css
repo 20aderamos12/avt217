@@ -1,0 +1,29 @@
+body {
+background-color: #403C62
+}
+
+h1 {
+margin-left: 2%;
+font-size: 70px;
+font-family: 'Poiret One', cursive;
+color: #E9CFEC
+}
+
+p {
+font-size: 35px;
+font-family: 'Poiret One', cursive;
+color: #E9CFEC
+}
+
+a:link {
+text-decoration: none;
+color: #E9CFEC
+}
+
+a:visited {
+color: #E9CFEC
+}
+
+a:hover {
+color: #EDE275
+}
