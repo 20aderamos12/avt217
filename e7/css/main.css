@@ -1,0 +1,68 @@
+* {
+font-family: 'Manrope', sans-serif;
+}
+
+h1 {
+  color: #624C92
+}
+
+h1 {
+  font-size: 60px
+}
+
+h2 {
+  font-size: 30px;
+  color: #624C92
+}
+
+h3 {
+  font-size: 35px;
+  color: #624C92
+}
+
+body {
+  margin: 70px;
+  background-color: #EEE3FA
+}
+
+ul {
+  list-style-type: none;
+  line-height: 40px;
+  margin-bottom: 70px;
+}
+
+ul {
+  font-size: 30px;
+}
+
+p {
+  text-indent: 30px;
+  font-size: 25px;
+  color: #624C92
+
+}
+
+p{
+  line-height: 55px;   /* within paragraph */
+  margin-bottom: 30px; /* between paragraphs */
+  margin-top: 30px
+}
+
+a:link {
+  text-decoration: none;
+  color:#624C92
+}
+
+a:visited {
+  color:#624C92
+}
+
+a:hover {
+ color: #D2B9D3
+}
+
+#signature {
+  font-style: italic;
+  font-size: 25px;
+  color: #624C92
+}
