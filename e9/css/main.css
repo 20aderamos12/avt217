@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+main {
+  width: 125vw;
+  margin: -100px, -12.5vw;
+}
+.shape1 {
+  width: 100px;
+  height: 100px;
+  background-color: #4E387E;
+  margin: 50px;
+  float: left;
+  border-radius: 50%;
+}
+
+.shape2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 50px 150px;
+  float: left;
+  border-radius: 50%;
+}
+
+.shape3 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  margin: 50px 150px;
+  float: left;
+  border-radius: 50%;
+}
+
+.shape4 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  margin: 50px 150px;
+  float: left;
+  border-radius: 50%;
+}
+#p2 .shape1 {
+  width: 400px
+}
