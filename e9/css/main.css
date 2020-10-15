@@ -51,7 +51,7 @@ main {
 #p2 .square1 {
   width: 300px;
   height: 300px;
-  background-color: #C6DEFF;
+  background-color: #F660AB;
   float: left;
   opacity: .5;
   margin: -30px;
@@ -61,7 +61,7 @@ main {
 #p2 .square2 {
   width: 300px;
   height: 300px;
-  background-color: #FDD7E4;
+  background-color: #FFD801;
   float: left;
   opacity: .7;
   margin: -30px;
@@ -71,7 +71,7 @@ main {
 #p2 .square3 {
   width: 300px;
   height: 300px;
-  background-color:  #FFFFAE;
+  background-color:  #6495ED;
   float: left;
   opacity: .5;
   margin: -30px;
