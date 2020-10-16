@@ -49,33 +49,33 @@ main {
 }
 
 #p2 .shape1 {
-  width: 300px;
-  height: 300px;
+  width: 30px;
+  height: 100px;
   background-color: #F660AB;
   float: left;
-  opacity: .5;
-  margin: -30px;
-  transform: skew(30deg);
+  opacity: .7;
+  margin: -20px;
+  transform: skew(40deg);
 }
 
 #p2 .shape2 {
-  width: 300px;
-  height: 300px;
+  width: 60px;
+  height: 100px;
   background-color: #FFD801;
   float: left;
   opacity: .7;
-  margin: -30px;
+  margin: -20px;
   transform: skew(-30deg);
 }
 
 #p2 .shape3 {
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
   background-color: #6495ED;
   float: left;
-  opacity: .5;
-  margin: -30px;
-  transform: skew(30deg);
+  opacity: .9;
+  margin: -20px;
+  transform: skew(-30deg);
 }
 
 #p3 .shape1 {
