@@ -80,18 +80,10 @@ main {
 
 #p3 .shape1 {
   float: left;
-  width: 0px;
-  height: 0px;
-  border-top: 60px solid #571B7E;
-  border-right: 60px solid transparent;
-  border-bottom: 60px solid #571B7E;
-  border-left: 60px solid #571B7E;
-  border-top-left-radius: 60px;
-  border-top-right-radius: 60px;
-  border-bottom-left-radius: 60px;
-  border-bottom-right-radius: 60px;
+  border-top: 100px solid #4EE2EC;
+  border-right: 100px solid transparent;
   margin: 20px;
-  transform: skew(-50deg);
+  transform: skew(-10deg);
 }
 
 #p3 .shape2 {
@@ -114,26 +106,26 @@ main {
   float: left;
   width: 0px;
   height: 0px;
-  border-top: 60px solid #571B7E;
+  border-top: 60px solid #F660AB;
   border-right: 60px solid transparent;
-  border-bottom: 60px solid #571B7E;
-  border-left: 60px solid #571B7E;
+  border-bottom: 60px solid #F660AB;
+  border-left: 60px solid #F660AB;
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
   margin: 20px;
-  transform: skew(50deg);
+  transform: skew(30deg);
 }
 
 #p3 .shape4 {
   float: left;
   width: 0px;
   height: 0px;
-  border-top: 60px solid #FFFF00;
+  border-top: 60px solid white;
   border-right: 60px solid transparent;
-  border-bottom: 60px solid #FFFF00;
-  border-left: 60px solid #FFFF00;
+  border-bottom: 60px solid white;
+  border-left: 60px solid white;
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
@@ -143,29 +135,22 @@ main {
 }
 
 #p3 .shape5 {
+  width: 90px;
+  height: 90px;
+  background-color: #6495ED;
   float: left;
-  width: 0px;
-  height: 0px;
-  border-top: 60px solid #571B7E;
-  border-right: 60px solid transparent;
-  border-bottom: 60px solid #571B7E;
-  border-left: 60px solid #571B7E;
-  border-top-left-radius: 60px;
-  border-top-right-radius: 60px;
-  border-bottom-left-radius: 60px;
-  border-bottom-right-radius: 60px;
-  margin: 20px;
-  transform: skew(50deg);
+  margin: 10px;
+  transform: skew(40deg);
 }
 
 #p3 .shape6 {
   float: left;
   width: 0px;
   height: 0px;
-  border-top: 60px solid #FFFF00;
+  border-top: 60px solid #5F56E2;
   border-right: 60px solid transparent;
-  border-bottom: 60px solid #FFFF00;
-  border-left: 60px solid #FFFF00;
+  border-bottom: 60px solid #5F56E2;
+  border-left: 60px solid #5F56E2;
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
@@ -177,6 +162,4 @@ main {
 body #p3{
   overflow: hidden;
   background-color: black;
-
-
 }
