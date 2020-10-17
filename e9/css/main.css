@@ -251,10 +251,10 @@ body #p4{
 }
 
 #p5 .shape1 {
-  width: 400px;
-   height: 400px;
+  width: 150px;
+   height: 150px;
    border-radius: 50% 1% 50% 1%;
-   border: 80px solid white;
+   border: 10px solid white;
    transform: rotate(-145deg);
    float: left;
    margin: .001px;
@@ -263,10 +263,10 @@ body #p4{
 }
 
 #p5 .shape2 {
-  width: 400px;
-   height: 400px;
+  width: 150px;
+   height: 150px;
    border-radius: 1% 50% 1% 50%;
-   border: 80px solid white;
+   border: 10px solid white;
    transform: rotate(-55deg);
    float: left;
    margin: .001px;
@@ -275,10 +275,10 @@ body #p4{
 }
 
 #p5 .shape3 {
-  width: 400px;
-   height: 400px;
+  width: 150px;
+   height: 150px;
    border-radius: 50% 1% 50% 1%;
-   border: 80px solid white;
+   border: 10px solid white;
    transform: rotate(-145deg);
    float: left;
    margin: .001px;
@@ -287,10 +287,10 @@ body #p4{
 }
 
 #p5 .shape4 {
-  width: 400px;
-   height: 400px;
+  width: 150px;
+   height: 150px;
    border-radius: 1% 50% 1% 50%;
-   border: 80px solid white;
+   border: 10px solid white;
    transform: rotate(-55deg);
    float: left;
    margin: .001px;
