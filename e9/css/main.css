@@ -202,17 +202,69 @@ body #p3{
 #p4 .shape4 {
   width: 200px;
   height: 200px;
-   border-radius: 10% 50% 10% 50%;
-   border: 20px solid #347235;
-   transform: rotate(-65deg);
-   float: left;
-   margin: 1px;
-   margin-top: 20px;
-   margin-left: 60px;
-   background-color: #41A317;
+  border-radius: 10% 50% 10% 50%;
+  border: 20px solid #347235;
+  transform: rotate(-65deg);
+  float: left;
+  margin: 1px;
+  margin-top: 20px;
+  margin-left: 60px;
+  background-color: #41A317;
 }
 
 body #p4{
   overflow: hidden;
   background-color: #6C2DC7;
 }
+
+#p5 .shape1 {
+  width: 400px;
+   height: 400px;
+   border-radius: 50% 1% 50% 1%;
+   border: 80px solid white;
+   transform: rotate(-145deg);
+   float: left;
+   margin: .001px;
+   background-color: red;
+   opacity: .9;
+}
+
+#p5 .shape2 {
+  width: 400px;
+   height: 400px;
+   border-radius: 1% 50% 1% 50%;
+   border: 80px solid white;
+   transform: rotate(-55deg);
+   float: left;
+   margin: .001px;
+   background-color: yellow;
+   opacity: .9;
+}
+
+#p5 .shape3 {
+  width: 400px;
+   height: 400px;
+   border-radius: 50% 1% 50% 1%;
+   border: 80px solid white;
+   transform: rotate(-145deg);
+   float: left;
+   margin: .001px;
+   background-color: blue;
+   opacity: .9;
+}
+
+#p5 .shape4 {
+  width: 400px;
+   height: 400px;
+   border-radius: 1% 50% 1% 50%;
+   border: 80px solid white;
+   transform: rotate(-55deg);
+   float: left;
+   margin: .001px;
+   background-color: green;
+   opacity: .9;
+}
+
+body #p5{
+  overflow: hidden;
+  background-color: black;
