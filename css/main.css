@@ -2,6 +2,22 @@ body {
   background-color: #4A466C
 }
 
+header {
+  width: 75vw;
+  margin: 25px auto;
+}
+
+main {
+  width: 75vw;
+  margin: 25px auto;
+  display: flow-root;
+}
+
+.col {
+  width: 50%;
+  float: left;
+}
+
 h1 {
   margin-left: 2%;
   font-size: 70px;
