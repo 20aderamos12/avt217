@@ -25,6 +25,13 @@ h1 {
   color: #E9CFEC
 }
 
+h2 {
+  margin-left: 2%;
+  font-size: 50px;
+  font-family: 'Poiret One', cursive;
+  color: #E9CFEC
+}
+
 li {
   font-size: 35px;
   font-family: 'Poiret One', cursive;
