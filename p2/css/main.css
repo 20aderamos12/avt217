@@ -1,4 +1,43 @@
-img {
-   max-width: 20%;
-   height: auto;
- }
+header {
+  width: 70vw;
+  margin: 25px auto;
+  float: left;
+}
+.nav {
+  width: 320px;
+  height: 150px;
+  background-color: #4525B0;
+  color: white;
+  float: left;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+h1 {
+  margin: 50px;
+  padding: 0px;
+  overflow: hidden;
+  text-align: left;
+}
+
+
+h3 {
+  list-style-type: none;
+  margin: 65px;
+  padding: 0px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.col {
+  width: 70vw;
+  margin: 25px auto;
+  float: left;
+}
