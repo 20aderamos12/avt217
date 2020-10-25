@@ -30,3 +30,42 @@ body {
 .black {
   background-color: #333333;
 }
+
+.column {
+  width: 950px;
+  padding: 50px;
+  display: flow-root;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  width: 800px;
+  height: 100px;
+  float: left;
+  background-color: tomato;
+}
+
+.title {
+  width: 800px;
+  height: 20px;
+  float: left;
+  background-color: tomato;
+  margin: 15px auto;
+}
+
+.col {
+  width: 256.7px;
+  height: 650px;
+  float: left;
+  background-color: tomato;
+  margin-right: 15px
+}
+
+.foot {
+  width: 800px;
+  height: 100px;
+  float: left;
+  background-color: tomato;
+  margin: 15px auto;
+}
