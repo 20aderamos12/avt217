@@ -33,7 +33,8 @@ body {
 
 .column {
   width: 950px;
-  padding: 50px;
+  background-color: white;
+  padding: 60px;
   display: flow-root;
   margin-left: auto;
   margin-right: auto;
@@ -44,6 +45,7 @@ body {
   height: 100px;
   float: left;
   background-color: tomato;
+  margin: 10px;
 }
 
 .title {
@@ -51,15 +53,15 @@ body {
   height: 20px;
   float: left;
   background-color: tomato;
-  margin: 15px auto;
+  margin: 10px;
 }
 
 .col {
-  width: 256.7px;
+  width: 253.5px;
   height: 650px;
   float: left;
   background-color: tomato;
-  margin-right: 15px
+  margin: 10px;
 }
 
 .foot {
@@ -67,5 +69,5 @@ body {
   height: 100px;
   float: left;
   background-color: tomato;
-  margin: 15px auto;
+  margin: 10px;
 }
