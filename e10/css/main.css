@@ -7,6 +7,35 @@ body {
   background-color: #4A466C
 }
 
+h1 {
+  margin-left: 2%;
+  font-size: 70px;
+  font-family: 'Poiret One', cursive;
+  color: #E9CFEC
+}
+
+li {
+  font-size: 35px;
+  font-family: 'Poiret One', cursive;
+  color: #E9CFEC
+}
+
+a:link {
+  text-decoration: none;
+  color: #E9CFEC
+}
+
+a:visited {
+  color: #E9CFEC
+}
+
+a:hover {
+ color: #FFF380
+}
+
+ul{
+  list-style-type: none;
+}
 .board {
   width: 900px;
   background-color: white;
