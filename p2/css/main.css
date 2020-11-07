@@ -49,6 +49,39 @@ nav ul {
    color: white;
  }
 
+ .slide-container {
+   width: 800px;
+   height: 600px;
+ }
+
+ .image-container {
+   width: 2400px;
+   height: 600px;
+   position: relative;
+   transition: left 2s;
+
+ }
+
  a:visited {
    color: white
  }
+
+.img-gallery4 {
+  width: 60%;
+}
+
+.img-gallery7 {
+  width: 60%;
+}
+
+.img-gallery10 {
+  width: 60%;
+}
+
+.img-exhibit7 {
+  width: 60%;
+}
+
+.img-books {
+  width: 60%;
+}
