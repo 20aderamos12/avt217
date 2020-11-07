@@ -18,7 +18,7 @@ body {
 
 .img-logo {
   width: 300px;
-  padding: 12px 0px;
+  padding: 20px 10px 20px 10px;
 }
 
 header {
@@ -35,15 +35,15 @@ nav {
 
 nav ul {
   margin: 0;
-  padding: 0;
+  padding: 10px 100px 10px 10px;
   list-style: none;
   color: white;
 }
 nav li {
   display: inline-block;
-  margin-left: 70px;
+  margin-left: 150px;
   padding-top: 53px;
-  font-size: 30px;
+  font-size: 23px;
   font-family: acier-bat-solid, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -77,7 +77,7 @@ nav li {
    animation: cycleImages 31s infinite;
  }
 
- .slideshow-item:nth-child(2){
+ .slideshow-item:nth-child(1){
    animation-delay: 0;
  }
 
@@ -96,7 +96,7 @@ nav li {
  }
 
  .slideshow-item-text {
-   max-width: 100%;
+   max-width: 350%;
    max-height: 40%;
    top: 60%;
    left: 0;
@@ -130,10 +130,10 @@ nav li {
      opacity: 1;
    }
    50%{
-     opacity: 0;
+     opacity: 1;
    }
    75%{
-     opacity: 0;
+     opacity: 1;
    }
 
  }
