@@ -9,7 +9,6 @@ body{
   width: 800px;
   height: 600px;
   margin: 200px auto;
-  background-color: blue;
 }
 
 .head {
@@ -19,6 +18,15 @@ body{
   margin: 50px 0 0 320px;
   border-radius: 50%;
   background-color: white;
+}
+
+.head-outline {
+  position: absolute;
+  width: 178px;
+  height: 158px;
+  margin: 47px 0 0 316px;
+  border-radius: 50%;
+  background-color: #D1D0CE;
 }
 
 .left-ear {
@@ -87,7 +95,7 @@ body{
   width: 30px;
   height: 30px;
   margin: 135px 0 0 390px;
-  border-radius: 60% 30% 30% 30%;
+  border-radius: 80% 40% 60% 40%;
   background-color: black;
   transform: rotate(45deg);
 }
@@ -178,4 +186,100 @@ body{
   margin: 180px 0 0 510px;
   border-radius: 50%;
   background-color: black;
+}
+
+.right-leg {
+  position: absolute;
+  display: inline-block;
+  transform: rotate(20deg);
+  width: 40px;
+  height: 55px;
+  margin: 280px 0 0 419px;
+  border-radius: 50% 50% 10% 10%;
+  background-color: black;
+}
+
+.left-leg {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 65px;
+  margin: 280px 0 0 370px;
+  border-radius: 50% 50% 10% 10%;
+  background-color: black;
+}
+
+.right-foot {
+  position: absolute;
+  display: inline-block;
+  transform: rotate(110deg);
+  width: 25px;
+  height: 47px;
+  margin: 310px 0 0 416px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.left-foot {
+  position: absolute;
+  display: inline-block;
+  transform: rotate(90deg);
+  width: 25px;
+  height: 43px;
+  margin: 330px 0 0 378px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.base {
+  position: absolute;
+  width: 170px;
+  height: 110px;
+  margin: 330px 0 0 320px;
+  border-radius: 50% 50% 10% 10%;
+  background-color: white;
+}
+
+.base-outline {
+  position: absolute;
+  width: 178px;
+  height: 118px;
+  margin: 330px 0 0 316px;
+  border-radius: 50% 50% 10% 10%;
+  background-color: #D1D0CE;
+}
+
+.solar-panel {
+  position: absolute;
+  border: 2px black;
+  width: 112px;
+  height: 30px;
+  margin: 375px 0 0 350px;
+  background-color: #493D26;
+}
+.solar-panel-border {
+  position: absolute;
+  border: 2px black;
+  width: 117px;
+  height: 37px;
+  margin: 372px 0 0 348px;
+  background-color: #2B1B17;
+}
+
+.line-1 {
+  position: absolute;
+  border: 2px black;
+  width: 1px;
+  height: 30px;
+  margin: 375px 0 0 385px;
+  background-color: #4C4646;
+}
+
+.line-2 {
+  position: absolute;
+  border: 2px black;
+  width: 1px;
+  height: 30px;
+  margin: 375px 0 0 425px;
+  background-color: #4C4646;
 }
