@@ -157,3 +157,25 @@ body{
   border-radius: 50% 50% 10% 10%;
   background-color: black;
 }
+
+.left-hand {
+  position: absolute;
+  display: inline-block;
+  transform: rotate(190deg);
+  width: 15px;
+  height: 44px;
+  margin: 180px 0 0 290px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.right-hand {
+  position: absolute;
+  display: inline-block;
+  transform: rotate(-190deg);
+  width: 15px;
+  height: 44px;
+  margin: 180px 0 0 510px;
+  border-radius: 50%;
+  background-color: black;
+}
