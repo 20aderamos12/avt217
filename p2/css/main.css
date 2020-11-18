@@ -12,8 +12,10 @@ html, body {
 
 .header {
   width: 100%;
+  height: auto;
   margin: 0 auto;
   position: relative;
+  padding: 0 0 10px 0;
 }
 
 .img-logo {
@@ -23,6 +25,7 @@ html, body {
 
 header {
   background: #4E387E;
+  padding: 10px 0 0 0;
 }
 
 main {
@@ -98,6 +101,7 @@ nav li {
    height: 100vh;
    overflow: static;
    position: relative;
+   padding: 20px 0 0 0;
  }
 
  .slideshow-item {
@@ -139,11 +143,11 @@ nav li {
    background: -moz-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 94%, rgba(0, 0, 0, 0.01) 100%);
    background: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 94%, rgba(0, 0, 0, 0.01) 100%);
    color: #fff;
-   padding: 70px 10px 70px 40px;
+   padding: 70px 10px 60px 10px;
  }
 
  .slideshow-item-text h5{
-   font-size: 70px;
+   font-size: 85px;
    margin: inherit;
    font-family: acier-bat-solid, sans-serif;
    font-weight: 400;
@@ -153,7 +157,7 @@ nav li {
  }
 
  .slideshow-item-text p{
-   font-size: 50px;
+   font-size: 60px;
    margin: inherit;
    font-family: hero-new, sans-serif;
    font-weight: 200;
@@ -206,14 +210,224 @@ nav li {
     color: #4E387E;
 }
 
+ /* exhibits */
+
+ .content1 {
+   width: 100%;
+   height: auto;
+   padding: 0 0 47% 0;
+ }
+
+.column {
+  width: 50%;
+  float: right;
+}
+
+.column h2 {
+  width: 100%;
+  font-size: 50px;
+  margin: inherit;
+  font-family: acier-bat-solid, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4E387E;
+  padding: 0 20px 20px 0;
+}
+
+.column h3 {
+  width: 100%;
+  font-size: 35px;
+  font-family: hero-new, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #4E387E;
+  padding: 0 20px 20px 0;
+}
+
+.column h4 {
+  width: 100%;
+  font-size: 25px;
+  font-family: hero-new, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #4E387E;
+  padding: 0 20px 20px 0;
+}
+
+
+.column img {
+  width: 100%;
+  height: auto;
+}
+
+.content2 {
+  width: 100%;
+  height: auto;
+  padding: 0 0 47% 0;
+}
+
+.column2 {
+  width: 50%;
+  float: left;
+}
+
+.column2 h2 {
+  width: 100%;
+  font-size: 50px;
+  margin: inherit;
+  font-family: acier-bat-solid, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4E387E;
+  padding: 0 20px 20px 20px;
+}
+
+.column2 h3 {
+  width: 100%;
+  font-size: 35px;
+  font-family: hero-new, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #4E387E;
+  padding: 0 20px 20px 20px;
+}
+
+.column2 h4 {
+  width: 100%;
+  font-size: 25px;
+  font-family: hero-new, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #4E387E;
+  padding: 0 20px 20px 20px;
+}
+
+.column2 img {
+  width: 100%;
+  height: auto;
+}
+
+.content3 {
+  width: 100%;
+  height: auto;
+  padding: 0 0 47% 0;
+}
+
+.column3 {
+  width: 50%;
+  float: right;
+}
+
+.column3 h2 {
+  width: 100%;
+  font-size: 50px;
+  margin: inherit;
+  font-family: acier-bat-solid, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4E387E;
+  padding: 0 20px 20px 0;
+}
+
+.column3 h3 {
+  width: 100%;
+  font-size: 35px;
+  font-family: hero-new, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #4E387E;
+  padding: 0 20px 20px 0;
+}
+
+.column3 h4 {
+  width: 100%;
+  font-size: 25px;
+  font-family: hero-new, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #4E387E;
+  padding: 0 20px 20px 0;
+}
+
+.column3 img {
+  width: 100%;
+  height: auto;
+}
+
+.content4 {
+  width: 100%;
+  height: auto;
+  padding: 0 0 47% 0;
+}
+
+.column4 {
+  width: 50%;
+  float: left;
+}
+
+.column4 h2 {
+  width: 100%;
+  font-size: 50px;
+  margin: inherit;
+  font-family: acier-bat-solid, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4E387E;
+  padding: 0 20px 20px 20px;
+}
+
+.column4 h3 {
+  width: 100%;
+  font-size: 35px;
+  font-family: hero-new, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #4E387E;
+  padding: 0 20px 20px 20px;
+}
+
+.column4 h4 {
+  width: 100%;
+  font-size: 25px;
+  font-family: hero-new, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #4E387E;
+  padding: 0 20px 20px 20px;
+}
+
+.column4 img {
+  width: 100%;
+  height: auto;
+}
 
 
 @media screen and (max-width: 900px) {
   .col {
     width: 100%;
-    magin-bottom: 50px;
+    margin-bottom: 50px;
+  }
+  .column1 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .column2 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .column3 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .column4 {
+    width: 100%;
+    margin-bottom: 50px;
   }
   main {
     width: 90vw;
   }
+}
+
+@media screen and (max-width: 1090px) {
+
 }
