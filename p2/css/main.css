@@ -7,6 +7,7 @@
 html, body {
   margin: 0;
   background: white;
+
 }
 
 .header {
@@ -24,6 +25,38 @@ header {
   background: #4E387E;
 }
 
+main {
+  width: 100%;
+  margin: auto;
+  padding: 60px 40px 10px 40px;
+  background-color: white;
+}
+
+.col {
+  width: 50%;
+  background-color: white;
+  float: left;
+  padding: 0 10px 60px 10px;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: acier-bat-solid, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #4E387E;
+  margin: inherit;
+  position: relative;
+}
+
+p {
+  font-size: 35px;
+  font-family: hero-new, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #4E387E;
+  margin: inherit;
+}
 
 nav {
   float: right;
@@ -49,10 +82,7 @@ nav li {
   font-weight: 400;
   font-style: normal;
 }
-
- p {
-   color: black;
- }
+}
 
  a:link {
    text-decoration: none;
@@ -143,206 +173,47 @@ nav li {
    }
  }
 
-.col {
-  width: 50%;
-  float: left;
+.exhibit-container img {
+  width: 90%;
+  height: auto;
 }
 
- .exhibit-container {
-   width: 200%;
-   height: 100vh;
+.books img {
+  width: 100%;
+  height: auto;
+}
 
-   position: relative;
-   overflow: hidden;
-
-   float: left;
- }
-
-
-
- .gradient-item {
+.text-container {
    width: inherit;
    height: inherit;
    position: relative;
  }
 
- .gradient-item img {
-   width: 20%;
-   height: auto;
-   object-fit: cover;
- }
-
-.exhibit-container h1 {
-  font-size: 45px;
+.exhibit-text h2 {
+  font-size: 30px;
   font-family: acier-bat-solid, sans-serif;
   font-weight: 200;
   font-style: normal;
-  color: #4E387E;
-  margin: inherit;
-  position: relative;
-}
-
-.exhibit-container p {
-  font-size: 35px;
-  font-family: hero-new, sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  color: #4E387E;
+  color: black;
   margin: inherit;
 }
 
- .gradient-item-text h2 {
-   font-size: 30px;
-   margin: inherit;
-   font-family: acier-bat-solid, sans-serif;
-   font-weight: 200;
-   font-style: normal;
-   color: white;
-   padding: 100px 0 0 0;
- }
-
- .gradient-item-text p {
-   font-size: 20px;
-   margin: inherit;
-   font-family: hero-new, sans-serif;
-   font-weight: 200;
-   font-style: normal;
-   color: white;
-   padding: 10px 15px 0 0;
- }
-
-
-.gradient-item-text {
-  max-width: 20%;
-  max-height: auto;
-  transform: translateY(-100%);
-  background: -webkit-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 66%);
-  background: -o-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 66%);
-  background: -ms-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 66%);
-  background: -moz-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 66%);
-  background: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 66%);
-  padding: 100px 20px 0 0;
-  position: relative;
- }
-
-
-.shop-container {
-  float: left;
-  position: absolute;
-}
-
-.books img {
-  width: 90%;
-  height: auto;
-}
-
-.shop-container h1 {
-  font-size: 45px;
-  font-family: acier-bat-solid, sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  color: #4E387E;
-  margin: inherit;
-  float: left;
-}
-
-.shop-container p {
-  font-size: 35px;
-  font-family: hero-new, sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  color: #4E387E;
-  margin:  inherit;
-  float: left;
-}
-
-@media screen and (max-width: 320px) {
-  .slideshow {
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    overflow: static;
-    position: relative;
-  }
-
-  .slideshow-item {
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    position: absolute;
-    opacity: 0;
-    animation: cycleImages 31s infinite;
-  }
-
-  .slideshow-item:nth-child(1){
-    animation-delay: 0;
-  }
-
-  .slideshow-item:nth-child(2){
-   animation-delay: 10s;
-  }
-
-  .slideshow-item:nth-child(3){
-   animation-delay: 20s;
-  }
-
-  .slideshow-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .slideshow-item-text {
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    top: 60%;
-    left: 0;
-    transform: translateY(-100%);
-    background-color: rgba(0,0,0,.3);
-    background: -webkit-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 94%, rgba(0, 0, 0, 0.01) 100%);
-    background: -o-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 94%, rgba(0, 0, 0, 0.01) 100%);
-    background: -ms-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 94%, rgba(0, 0, 0, 0.01) 100%);
-    background: -moz-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 94%, rgba(0, 0, 0, 0.01) 100%);
-    background: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 94%, rgba(0, 0, 0, 0.01) 100%);
-    color: #fff;
-    padding: 70px 10px 70px 40px;
-  }
-
-  .slideshow-item-text h5{
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    font-size: 70px;
-    margin: inherit;
-    font-family: acier-bat-solid, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    letter-spacing: 3px;
-  }
-
-  .slideshow-item-text p{
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    font-size: 50px;
-    margin: inherit;
+.exhibit-text h3 {
+  font-size: 25px;
     font-family: hero-new, sans-serif;
     font-weight: 200;
     font-style: normal;
-    color: white;
-  }
+    color: #4E387E;
+}
 
-  @keyframes cycleImages {
-    25%{
-      opacity: 1;
-    }
-    50%{
-      opacity: 1;
-    }
-    75%{
-      opacity: 1;
-    }
+
+
+@media screen and (max-width: 900px) {
+  .col {
+    width: 100%;
+    magin-bottom: 50px;
+  }
+  main {
+    width: 90vw;
   }
 }
