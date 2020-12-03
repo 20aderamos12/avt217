@@ -438,7 +438,8 @@ nav li {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  padding-top: 40px;
+  padding-top: 80px;
+  padding-bottom: 60px;
 }
 
 .about-image {
@@ -456,10 +457,12 @@ nav li {
 .about-text p {
  width: 100%;
  height: auto;
+ margin-bottom: 50px;
  color: black;
  font-size: 30px;
  word-spacing: 5px;
- line-height: 60px;
+ line-height: 70px;
+ text-indent: 70px;
 }
 
 
