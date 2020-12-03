@@ -432,7 +432,7 @@ nav li {
   position: relative;
 }
 .about-us img {
-  width: 40%;
+  width: 500px;
   height: auto;
   display: block;
   margin-left: auto;
@@ -448,6 +448,18 @@ nav li {
 .about-image img {
   width: 100%;
   height: auto;
+}
+.about-text {
+ width: 100%;
+ height: auto;
+}
+.about-text p {
+ width: 100%;
+ height: auto;
+ color: black;
+ font-size: 30px;
+ word-spacing: 5px;
+ line-height: 60px;
 }
 
 
