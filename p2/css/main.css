@@ -204,7 +204,7 @@ nav li {
   color: white;
   margin: inherit;
   position: relative;
-  bottom: 100px;
+  bottom: 107px;
   left: 16px;
 
 }
@@ -216,14 +216,22 @@ nav li {
   font-style: normal;
   color: white;
   position: relative;
-  bottom: 94px;
+  bottom: 100px;
   left: 16px;
 }
 
  /* exhibits */
 .exhibits-logo {
-  width: 300%;
-  padding: 10px 10px 10px 10px;
+  width: 500px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.exhibits-logo img {
+  width: 500px;
+  height: auto;
 }
  .content1 {
    width: 100%;
@@ -413,6 +421,35 @@ nav li {
   width: 100%;
   height: auto;
 }
+
+/* about */
+.about-us {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.about-us img {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-top: 40px;
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+}
+.about-image img {
+  width: 100%;
+  height: auto;
+}
+
 
 
 @media screen and (max-width: 900px) {
