@@ -472,6 +472,9 @@ nav li {
  word-spacing: 5px;
  line-height: 70px;
  text-indent: 70px;
+ font-family: hero-new, sans-serif;
+ font-weight: 200;
+ font-style: normal;
 }
 
  /* shop */
@@ -493,41 +496,43 @@ nav li {
    position: relative;
  }
 
-.book-shop {
-  width: 100%;
-  margin: auto;
-  position: absolute;
-
-
+.gallery {
+  border: 1px;
 }
- .col1 {
-   margin: 100px;
-   float: left;
- }
 
- .col1 img {
-  width: 150px;
+.gallery img {
+  width: 100%;
   height: auto;
+  float: left;
 }
 
-.row1 {
-  width: 100%;
-  margin: auto;
-  position: absolute;
-
+.price {
+  padding: 15px;
+  text-align: center;
 }
 
-.row2 {
-  width: 100%;
-  margin: 400px auto;
+.responsive {
+  padding: 40px;
+  width: 21%;
+  height: auto;
+  float: left;
 }
 
-.row3 {
-  width: 100%;
-  margin: 800px auto;
-
+.price h1{
+  font-size: 20px;
+  font-family: hero-new, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: black;
 }
 
+.price p{
+  font-size: 20px;
+  font-family: hero-new, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #4E387E;
+}
 
 
 
@@ -558,8 +563,11 @@ nav li {
   main {
     width: 90vw;
   }
-}
-
-@media screen and (max-width: 1090px) {
-
+  .responsive {
+    padding: 40px;
+    width: 60%;
+    margin-bottom: 50px;
+    height: auto;
+    float: left;
+  }
 }
