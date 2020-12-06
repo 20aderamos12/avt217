@@ -99,7 +99,15 @@ nav li {
   font-weight: 400;
   font-style: normal;
 }
-
+nav p {
+  font-size: 20px;
+  font-family: hero-new, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 43px;
+  color: #4E387E;
+  margin: inherit;
+}
 
  a:link {
    text-decoration: none;
